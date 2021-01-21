@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lite.page</title>
+    <script src="scripts/index.js" defer></script>
+</head>
+<body>
+    <div class="head">
+        <div class="head__block">
+            <div class="head__title">
+                lite.page
+            </div>
+            <nav class="head__nav">
+                <ul class="head__list">
+                    <li class="head__item"><a href="">CRM</a></li>
+                    <li class="head__item"><a href="">Мои сайты</a></li>
+                    <li class="head__item"><a href="">Каталог</a></li>
+                    <li class="head__item"><a href="">Тарифы</a></li>
+                    <li class="head__item"><a href="">Блог</a></li>
+                    <li class="head__item last-item"><a href="">Помощь</a></li>
+                </ul>
+                <div class="head__img">
+                    <img src="img/Ellipse 71.png" alt="">
+                </div>
+            </nav>
+            <div class="burger">
+
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="main">
+        <div class="container">
+            <div class="main__upperbar">
+
+                <div class="main__back_btn">
+                    <button class="back"><i class="fas fa-chevron-left"></i></button>
+                    <div class="main__back_btn__text">Назад</div>
+                </div>
+
+                <div class="main__nav-block">
+                    <nav class="main__nav">
+                        <ul class="main__list">
+                            <li class="main__item"><a href="">Главная /</a></li>
+                            <li class="main__item"><a href="">Настройки сайта/</a></li>
+                            <li class="main__item"><a href="">Доступ к сайту</a></li>
+                        </ul>
+                    </nav>
+                    <div class="main__title">Доступ к сайту</div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="content__sidebar">
+                    <ul class="content__list">
+                        <li class="content__item"><a href="" class="item">Доступ к сайту</a></li>
+                        <li class="content__item"><a href="" class="item">Доступ к сайту</a></li>
+                        <li class="content__item"><a href="" class="item">Доступ к сайту</a></li>
+                        <li class="content__item"><a href="" class="item">Доступ к сайту</a></li>
+                        <li class="content__item"><a href="" class="item">Доступ к сайту</a></li>
+                        <li class="content__item"><a href="" class="item">Доступ к сайту</a></li>
+                        <li class="content__item"><a href="" class="item">Доступ к сайту</a></li>
+                        <li class="content__item"><a href="" class="item">Доступ к сайту</a></li>
+                        <li class="content__item"><a href="" class="item">Доступ к сайту</a></li>
+                        <li class="content__item"><a href="" class="item">Доступ к сайту</a></li>
+                        <li class="content__item"><a href="" class="item">Доступ к сайту</a></li>
+                        <li class="content__item"><a href="" class="item">Доступ к сайту</a></li>
+                    </ul>
+                </div>
+                <div class="content__main">
+                    <div class="content__title">Настройка доступа к сайту</div>
+                    <div class="content__subtitle">Контролируйте, кому доступен ваш сайт</div>
+                    <div class="content__block">
+                        <div class="content__left">Интернет сайт</div>
+                        <div class="content__right">
+                            <label class="label">
+                                <input type="radio" class="radio" name="choice">
+                                <span class="fake"></span>
+                                <span class="text">Опубликовать сайт</span>
+                            </label>
+                            <div class="content__description">
+                                Доступно при оплаченном тарифном плане и купленном домене
+                            </div>
+                            <label class="label">
+                                <input type="radio" class="radio" name="choice">
+                                <span class="fake"></span>
+                                <span class="text">Сайт защищен паролем</span>
+                            </label>
+                            <div class="content__description">
+                                Сайт увидит только тот, у кого есть пароль
+                            </div>
+                            <label class="label">
+                                <input type="radio" class="radio" name="choice" checked>
+                                <span class="fake"></span>
+                                <span class="text">Приватный сайт</span>
+                            </label>
+                            <div class="content__description">
+                                Только авторы и владелец сайта могут увидеть сайт
+                            </div>
+                            <div class="content__buttons">
+                                <button class="button content__undo-btn">Отменить</button>
+                                <button id="save-btn" class="button content__save-btn">Отменить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="alert" class="alert">
+        <div class="alert__text">
+            Настройки доступа к сайту успешно изменены
+        </div>
+        <div id="close" class="alert__close"><i class="fas fa-times"></i></div>
+    </div>
+</body>
+</html>
